@@ -12,4 +12,31 @@ namespace ServiceOS
 
         public string Summary { get; set; }
     }
+
+    public class Product
+    {
+        public int Id { get; set; }
+
+        public string Title { get; set; }
+
+        public int UomId { get; set; }
+    }
+
+    public class ProductMovements
+    {
+        public int Id { get; set; }
+
+        public DateTime InsertDateTime { get; set; }
+
+        public int ProductId { get; set; }
+
+        public int Quantity { get; set; }
+    }
+
+    public class ProductUom
+    {
+        public int Id { get; set; }
+
+        public string Title { get; set; }
+    }
 }
