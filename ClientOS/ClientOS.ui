@@ -6,38 +6,97 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>400</height>
+    <width>900</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>ClientOS</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pushButtonProduct">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>160</y>
-      <width>75</width>
+      <x>354</x>
+      <y>340</y>
+      <width>111</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Добавить Product</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QComboBox" name="comboBoxUom">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>70</y>
-      <width>113</width>
+      <x>630</x>
+      <y>20</y>
+      <width>131</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxProduct">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelUom">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>16</y>
+      <width>31</width>
       <height>20</height>
      </rect>
     </property>
-    <property name="readOnly">
-     <bool>true</bool>
+    <property name="text">
+     <string>Uom:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelProduct">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>47</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Product:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ProductMovements">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>340</y>
+      <width>161</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить ProductMovements</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Uom">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>340</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить Uom</string>
     </property>
    </widget>
   </widget>
